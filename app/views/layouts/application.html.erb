@@ -12,11 +12,14 @@
 
   <body>
     <div> 
-    <h1>Catálogo de filmes - <%= Date.current.year %> </h1>
-  
     </div>
     <%=render 'layouts/menu'%>
+    <br>
+    <div class="container">
+    <h3>Catálogo de filmes - <%= Date.current.year %> </h3>
+    <br>
     <%= yield %>
+    </div>
     <br>
   </body>
 </html>

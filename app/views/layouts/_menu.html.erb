@@ -1,17 +1,20 @@
-<ul>
-   <li>
-        <%= link_to "Novo Filme", filmes_path %>
-   </li>
-    <li>
-        <%= link_to "Novo Ator", new_ator_path %>
-    </li>
-    <li>
-        <%= link_to "Atores", ators_path %>
-    </li>
-    <li>
-        <%= link_to "Criticas", criticas_path %>
-    </li>
-    <li><a href="/logs">Logs</a></li>
-</ul>
 
-<hr>
+<br>
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand">Projeto 02</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="/filmes">Filmes</a>
+        <a class="nav-link" href="/ators">Novo Ator</a>
+        <a class="nav-link" href="/criticas">Críticas</a>
+        <a class="nav-link" href="/logs">Logs</a>
+        
+      </div>
+    </div>
+  </div>
+</nav>
