@@ -72,3 +72,5 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "simplecov", "~> 0.21.2", :group => :test, require: false
