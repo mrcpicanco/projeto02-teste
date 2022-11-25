@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe Critica do
-  it "Criticism cannot be left blank" do
+  it " cannot be left blank" do
     critica = Critica.new
     expect(critica.save).to eq(false)
   end

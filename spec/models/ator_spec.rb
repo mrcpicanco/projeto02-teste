@@ -1,13 +1,10 @@
 require 'rails_helper'
 
-
-
 describe Ator do 
   it "is valid when name, year and email are present" do 
    ator = Ator.new( nome: 'Bruce', 
     ano_nascimento: '2000', 
     email: 'bruce@ironmaiden.com' ) 
-    
     expect(ator).to be_valid 
    end 
  end
